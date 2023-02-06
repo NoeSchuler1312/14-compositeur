@@ -23,6 +23,10 @@ p {
   line-height: 13px;
 }
 
+hr {
+  border: none;
+}
+
 h3 {
   color: #37ef37;
   text-align: center;
@@ -59,12 +63,19 @@ a {
   background: linear-gradient(0deg, rgba(13,80,13,1) 0%, rgba(0,0,0,1) 90%);
 }
 
-.music {
+audio {
+  width: 280px;
+  height: 40px;
+  margin: 5px 10px 20px;
+  padding: 0;
+}
+
+.container {
   display: flex;
   justify-content: center;
 }
 
-audio {
-  width: 300px;
-  height: 40px;
+.youtube {
+  max-width: 50%;
+  margin: 0 0 30px;
 }
