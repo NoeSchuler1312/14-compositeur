@@ -18,9 +18,9 @@ p {
   color: #fff;
   text-align: justify;
   text-align-last: center;
-  font-size: 11px;
+  font-size: 14px;
   margin: 0 40px;
-  line-height: 13px;
+  line-height: 13.5px;
   font-weight: 400;
 }
 
@@ -31,7 +31,7 @@ hr {
 h3 {
   color: #37ef37;
   text-align: center;
-  font-size: 17px;
+  font-size: 19px;
   margin: 30px 50px 0;
   font-style: italic;
 }
@@ -39,20 +39,20 @@ h3 {
 h4 {
   color: #c6c6c5;
   text-align: center;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 20px;
   margin: 40px 0 20px;
 }
 
 main h4 {
   color: #37ef37;
-  font-size: 11px;
-  margin: 10px 0 0 185px;
+  font-size: 13px;
+  margin: 8px 0 0 185px;
 }
 
 em {
   color: #c6c6c5;
-  font-size: 9px;
+  font-size: 10px;
   font-style: italic;
   font-weight: 300;
 }
@@ -71,8 +71,8 @@ a {
 }
 
 audio {
-  width: 250px;
-  height: 38px;
+  width: 240px;
+  height: 27px;
   margin: 5px 10px 20px;
 }
 
@@ -87,34 +87,19 @@ audio {
 }
 
 audio::-webkit-media-controls-panel {
-  background-color: #000;
+  background-color: #37ef37;
 }
 
 audio::-webkit-media-controls-mute-button {
-  background-color: #37ef37;
   border-radius: 50%;
 }
 
 audio::-webkit-media-controls-play-button {
-  background-color: #37ef37;
   border-radius: 50%;
 }
 
-audio::-webkit-media-controls-current-time-display {
-  color: #37ef37;
-}
-
-audio::-webkit-media-controls-time-remaining-display {
-  color: #37ef37;
-}
-
 audio::-webkit-media-controls-timeline {
-  background-color: #000;
-}
-
-audio::-webkit-media-controls-volume-slider {
   background-color: #37ef37;
-  border-radius: 25px;
-  padding-left: 8px;
-  padding-right: 8px;
+  width: 30px;
+  padding: 0 0 0 5px;
 }
