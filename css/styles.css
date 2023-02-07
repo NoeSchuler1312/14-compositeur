@@ -72,7 +72,7 @@ a {
 
 audio {
   width: 250px;
-  height: 30px;
+  height: 38px;
   margin: 5px 10px 20px;
 }
 
@@ -84,4 +84,37 @@ audio {
 .youtube {
   max-width: 50%;
   margin: 0 0 30px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #000;
+}
+
+audio::-webkit-media-controls-mute-button {
+  background-color: #37ef37;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-play-button {
+  background-color: #37ef37;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-current-time-display {
+  color: #37ef37;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+  color: #37ef37;
+}
+
+audio::-webkit-media-controls-timeline {
+  background-color: #000;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  background-color: #37ef37;
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
