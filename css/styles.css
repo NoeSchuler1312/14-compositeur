@@ -52,6 +52,7 @@ h2 {
 .container {
   display: flex;
   justify-content: center;
+  margin: 0 0 20px;
 }
 
 .container img {
@@ -110,7 +111,6 @@ a {
 .degradee {
   background: rgb(13,80,13);
   background: linear-gradient(0deg, rgba(13,80,13,1) 0%, rgba(0,0,0,1) 90%);
-  position: relative;
 }
 
 .degradee-2 img {
@@ -124,7 +124,7 @@ a {
 audio {
   width: 240px;
   height: 27px;
-  margin: 10px 10px 20px;
+  margin: 8px 10px 20px;
 }
 
 audio::-webkit-media-controls-panel {
