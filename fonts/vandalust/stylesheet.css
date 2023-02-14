@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Vandalust Graffiti';
+    src: url('VandalustGraffiti.woff2') format('woff2'),
+        url('VandalustGraffiti.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
